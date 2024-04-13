@@ -1,0 +1,107 @@
+body {           /* corpo do site */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;   /* cor de fundo do site */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-right: 0px; /* Margem da logo e o nome da lanchonete */
+}
+
+nav {
+    text-align: center;  
+    margin-bottom: 20px;
+    flex-direction: column; /* Mudar para layout de coluna */
+}
+
+nav a {
+    color: rgb(0, 0, 0); /* menu com cardápio, informações e contato */
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px; 
+    border-radius: 5px; /* Borda arredondada para os itens do menu */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+    
+}
+
+nav a:hover {
+    background-color: #ddd; /* Cor de fundo ao passar o mouse */
+}
+
+h2 {                  /* titulos das categorias */
+    background-color: rgb(0, 0, 0);  /* cor de fundo das categoriass */
+    color: #fff;
+
+}
+
+section {              /* cardápio */
+    padding: 10px;
+    text-align: center;
+}
+.cardapio-item {         /* itens do cardápios */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cardapio-item img {   /* imagem do cardápio */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.cardapio-item h3 { 
+    margin: 0;
+}
+
+.cardapio-item .preco {   /*preço dos itens */
+    font-weight: bold;
+    color: red;
+}
+
+form {                    /* formulario */
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+footer {  /* rodapé da pagina */
+    text-align: center;
+}
