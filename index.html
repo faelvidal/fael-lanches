@@ -9,7 +9,7 @@
     <link rel="icon" href="imagens/logo.png" type="image/png">
 </head>
 <body>
-    <header>  <!-- Capa da pagina com logo e nome -->
+    <header>  
         <img src="imagens/logo.png" alt="logo" class="logo">
         <h1>
          Fael Lanches
@@ -20,6 +20,7 @@
         <a href="#cardapio">Cardápio</a>
         <a href="#informacoes">Informações</a>
         <a href="#contato">Contato</a>
+        <a href="#Login">Login</a>
     </nav>
 
     <section id="cardapio"> <!-- Cardápio -->
@@ -95,6 +96,16 @@
             Tempo médio de entrega: 40 min <br><br>
             Tempo médio para retirada do pedido: 20 min<br>
          </p>
+    </section>
+
+    <section id="Login">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+            <input type="email" name="email" placeholder="E-mail" required><br>
+            <input type="password" name="senha" placeholder="Senha" required><br>
+            <input type="submit" value="Entrar">
+        </form>
+        <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se aqui</a></p>
     </section>
 
     <section id="contato">    <!-- entre em contato -->
